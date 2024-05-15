@@ -5,11 +5,11 @@
 class Hellobrew < Formula
   desc ""
   homepage "https://github.com/archivebyarunavabasucom/homebrewtaps"
-  version "0.0.4"
+  version "0.0.5"
 
   on_macos do
-    url "https://github.com/archivebyarunavabasucom/publishgo/releases/download/0.0.4/publishgo_0.0.4_darwin_all.tar.gz"
-    sha256 "04b823e9f75cbd3e64892bf7564576e228a1cf204b333fb1c38b41378044f4f7"
+    url "https://github.com/archivebyarunavabasucom/publishgo/releases/download/0.0.5/publishgo_0.0.5_darwin_all.tar.gz"
+    sha256 "15fd0e77a2c047d81d237273d258877e20eeab9a0b5a613fc606e8b59de1e066"
 
     def install
       bin.install "publishgo"
@@ -19,8 +19,8 @@ class Hellobrew < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/archivebyarunavabasucom/publishgo/releases/download/0.0.4/publishgo_0.0.4_linux_amd64.tar.gz"
-        sha256 "10e40d352e7990294e79be83c92362fcfee371a07eb6b2d860f8de4f60e5d169"
+        url "https://github.com/archivebyarunavabasucom/publishgo/releases/download/0.0.5/publishgo_0.0.5_linux_amd64.tar.gz"
+        sha256 "ccf70e457f475b9d872342bfab20d2803ffcad5941d1c3fc1d4096a41310b183"
 
         def install
           bin.install "hellobrew"
@@ -29,8 +29,8 @@ class Hellobrew < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/archivebyarunavabasucom/publishgo/releases/download/0.0.4/publishgo_0.0.4_linux_arm64.tar.gz"
-        sha256 "a5a28ae5172a5e2e07506112bb48a9dd5fd58a64e4819a8e1a35416861edc581"
+        url "https://github.com/archivebyarunavabasucom/publishgo/releases/download/0.0.5/publishgo_0.0.5_linux_arm64.tar.gz"
+        sha256 "edd834a4150952762fdea954af3a1ed7d13074b5d7b8830203a4f9b089f897de"
 
         def install
           bin.install "hellobrew"
